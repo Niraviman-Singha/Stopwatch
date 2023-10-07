@@ -32,11 +32,11 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
-        app:cardCornerRadius="300dp"
+        app:cardCornerRadius="320dp"
         app:cardElevation="10dp">
 
         <TextView
@@ -65,14 +65,13 @@
 
         <Button
             android:id="@+id/startBtn"
-            android:layout_width="140dp"
+            android:layout_width="150dp"
             android:layout_height="70dp"
             android:layout_gravity="start"
             android:backgroundTint="#FEFEFE"
-            android:fontFamily="@font/abril_fatface"
             android:text="Start"
             android:textColor="@color/naviblue"
-            android:textSize="35sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             app:cornerRadius="10dp"
             app:strokeColor="@color/naviblue"
@@ -83,15 +82,14 @@
 
         <Button
             android:id="@+id/stopBtn"
-            android:layout_width="140dp"
+            android:layout_width="150dp"
             android:layout_height="70dp"
             android:layout_gravity="end"
-            android:layout_marginLeft="25dp"
+            android:layout_marginLeft="15dp"
             android:backgroundTint="#FEFEFE"
-            android:fontFamily="@font/abril_fatface"
             android:text="Stop"
             android:textColor="@color/naviblue"
-            android:textSize="35sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             app:cornerRadius="10dp"
             app:strokeColor="@color/naviblue"
@@ -109,7 +107,6 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:backgroundTint="#FEFEFE"
-        android:fontFamily="@font/abril_fatface"
         android:text="Reset"
         android:textAlignment="center"
         android:textColor="@color/naviblue"
